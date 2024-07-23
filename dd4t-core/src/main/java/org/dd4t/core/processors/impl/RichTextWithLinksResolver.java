@@ -23,7 +23,7 @@ import org.dd4t.core.processors.Processor;
 import org.dd4t.core.resolvers.LinkResolver;
 import org.dd4t.core.util.RichTextUtils;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 import javax.xml.transform.TransformerException;
 
 /**

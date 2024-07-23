@@ -18,7 +18,7 @@ package org.dd4t.core.util;
 
 import org.dd4t.core.request.RequestContext;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 /**
  * dd4t-2

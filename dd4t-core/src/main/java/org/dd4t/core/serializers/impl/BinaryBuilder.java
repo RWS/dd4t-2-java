@@ -24,7 +24,7 @@ import org.dd4t.core.serializers.Serializer;
 import org.dd4t.core.util.CompressionUtils;
 import org.dd4t.providers.transport.BinaryWrapper;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 
 /**
  * Builds a Binary object from a BinaryWrapper object.

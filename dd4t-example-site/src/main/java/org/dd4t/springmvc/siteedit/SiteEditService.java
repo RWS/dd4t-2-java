@@ -25,7 +25,7 @@ import org.dd4t.springmvc.util.ApplicationContextProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.servlet.ServletRequest;
+import jakarta.servlet.ServletRequest;
 import java.text.ParseException;
 
 /**

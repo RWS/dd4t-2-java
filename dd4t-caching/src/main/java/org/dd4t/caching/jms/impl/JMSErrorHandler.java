@@ -20,7 +20,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.ErrorHandler;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 
 /**
  * Spring JMS error handler, alternative to the JMSExceptionListener which isn't always easy to hook up.

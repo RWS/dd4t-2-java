@@ -2,7 +2,7 @@ package org.dd4t.caching.jms.impl;
 
 import org.apache.activemq.transport.TransportListener;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 import java.io.IOException;
 
 /**

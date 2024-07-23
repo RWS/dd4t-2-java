@@ -19,7 +19,6 @@ package org.dd4t.mvc.utils;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Required;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -56,7 +55,6 @@ public class PropertiesServiceImpl extends PropertiesServiceBase {
         }
     }
 
-    @Required
     public void setLocation(String location) {
         LOG.debug("Load Properties from: {}", location);
         load(location);

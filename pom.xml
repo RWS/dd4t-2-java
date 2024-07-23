@@ -94,7 +94,7 @@
         <module>dd4t-providers</module>
         <module>dd4t-providers-odata</module>
         <module>dd4t-test-spring-web</module>
-        <module>dd4t-example-site</module>
+<!--        <module>dd4t-example-site</module>-->
     </modules>
 
     <profiles>

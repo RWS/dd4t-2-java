@@ -3,8 +3,8 @@ package org.dd4t.mvc.tags;
 import org.dd4t.contentmodel.Page;
 import org.dd4t.mvc.utils.XPMRenderer;
 
-import javax.servlet.jsp.JspException;
-import javax.servlet.jsp.tagext.SimpleTagSupport;
+import jakarta.servlet.jsp.JspException;
+import jakarta.servlet.jsp.tagext.SimpleTagSupport;
 import java.io.IOException;
 
 /**
