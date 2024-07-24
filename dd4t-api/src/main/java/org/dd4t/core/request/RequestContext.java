@@ -16,7 +16,7 @@
 
 package org.dd4t.core.request;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 /**
  * Bean Interface describes the request which is given to CWA for retrieval. It will at the

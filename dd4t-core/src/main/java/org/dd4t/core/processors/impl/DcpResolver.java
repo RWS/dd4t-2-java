@@ -16,6 +16,7 @@
 
 package org.dd4t.core.processors.impl;
 
+import jakarta.annotation.Resource;
 import org.dd4t.contentmodel.ComponentPresentation;
 import org.dd4t.contentmodel.Item;
 import org.dd4t.contentmodel.Page;
@@ -25,8 +26,6 @@ import org.dd4t.core.processors.Processor;
 import org.dd4t.core.request.RequestContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import javax.annotation.Resource;
 
 /**
  * Pagefactory processor intended to resolve DCP's on pages at the factory level. It checks the page

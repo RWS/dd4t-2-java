@@ -1,5 +1,6 @@
 package org.dd4t.thymeleaf.dialect;
 
+import jakarta.annotation.Resource;
 import org.dd4t.core.services.PropertiesService;
 import org.dd4t.thymeleaf.dialect.processor.xpm.XpmComponentPresentationProcessor;
 import org.dd4t.thymeleaf.dialect.processor.xpm.XpmFieldProcessor;
@@ -7,7 +8,6 @@ import org.dd4t.thymeleaf.dialect.processor.xpm.XpmPageInitProcessor;
 import org.thymeleaf.dialect.IProcessorDialect;
 import org.thymeleaf.processor.IProcessor;
 
-import javax.annotation.Resource;
 import java.util.HashSet;
 import java.util.Set;
 

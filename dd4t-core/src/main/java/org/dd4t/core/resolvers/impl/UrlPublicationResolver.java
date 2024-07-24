@@ -16,6 +16,7 @@
 
 package org.dd4t.core.resolvers.impl;
 
+import jakarta.annotation.Resource;
 import org.apache.commons.lang3.StringUtils;
 import org.dd4t.contentmodel.PublicationDescriptor;
 import org.dd4t.core.resolvers.PublicationResolver;
@@ -24,8 +25,7 @@ import org.dd4t.providers.PublicationProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 /**
  * dd4t-2

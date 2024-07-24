@@ -16,6 +16,7 @@
 
 package org.dd4t.core.factories.impl;
 
+import jakarta.annotation.Resource;
 import org.apache.commons.lang3.StringUtils;
 import org.dd4t.caching.CacheElement;
 import org.dd4t.contentmodel.ComponentPresentation;
@@ -31,7 +32,6 @@ import org.dd4t.providers.ComponentPresentationResultItem;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.annotation.Resource;
 import java.text.ParseException;
 
 public class ComponentPresentationFactoryImpl extends BaseFactory implements ComponentPresentationFactory {

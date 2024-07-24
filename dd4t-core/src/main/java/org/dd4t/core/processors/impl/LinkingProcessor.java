@@ -16,6 +16,7 @@
 
 package org.dd4t.core.processors.impl;
 
+import jakarta.annotation.Resource;
 import org.dd4t.contentmodel.Component;
 import org.dd4t.contentmodel.ComponentPresentation;
 import org.dd4t.contentmodel.Field;
@@ -35,7 +36,6 @@ import org.dd4t.core.util.RichTextUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.annotation.Resource;
 import javax.xml.transform.TransformerException;
 import java.util.Collection;
 import java.util.HashMap;

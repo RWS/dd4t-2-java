@@ -22,8 +22,8 @@ import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 import org.springframework.web.servlet.DispatcherServlet;
 
-import javax.servlet.ServletContext;
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.http.HttpServletRequest;
 
 public final class JspBeanContext {
 
@@ -63,7 +63,7 @@ public final class JspBeanContext {
      * @return the request-specific WebApplicationContext, or the global one
      * if no request-specific context has been found, or {@code null} if none
      * @see org.springframework.web.servlet.DispatcherServlet#WEB_APPLICATION_CONTEXT_ATTRIBUTE
-     * @see org.springframework.web.context.support.WebApplicationContextUtils#getWebApplicationContext(javax.servlet.ServletContext)
+     * @see org.springframework.web.context.support.WebApplicationContextUtils#getWebApplicationContext(jakarta.servlet.ServletContext)
      * @see org.springframework.web.context.ContextLoader#getCurrentWebApplicationContext()
      * @since 4.2.1
      */

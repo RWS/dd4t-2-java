@@ -1,13 +1,14 @@
 package org.dd4t.mvc.controllers;
 
+import jakarta.annotation.Resource;
 import org.dd4t.core.resolvers.PublicationResolver;
 import org.dd4t.core.services.PropertiesService;
 import org.dd4t.core.util.Constants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.Resource;
+import jakarta.annotation.PostConstruct;
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Locale;

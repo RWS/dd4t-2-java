@@ -39,7 +39,8 @@
     </scm>
 
     <properties>
-        <tridion.build.version>7.1.0</tridion.build.version>
+        <tridion.build.version>8.5.0-SNAPSHOT</tridion.build.version>
+        <tridion.cd_ambient.version>7.1.1-228</tridion.cd_ambient.version>
         <java-version>1.7</java-version>
 
         <guava.version>17.0</guava.version>
@@ -71,7 +72,7 @@
             <dependency>
                 <groupId>com.tridion</groupId>
                 <artifactId>cd_ambient</artifactId>
-                <version>${tridion.build.version}</version>
+                <version>${tridion.cd_ambient.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.tridion</groupId>

@@ -16,6 +16,7 @@
 
 package org.dd4t.core.factories.impl;
 
+import jakarta.annotation.Resource;
 import org.dd4t.contentmodel.Item;
 import org.dd4t.core.databind.DataBinder;
 import org.dd4t.core.exceptions.FactoryException;
@@ -25,7 +26,6 @@ import org.dd4t.core.processors.RunPhase;
 import org.dd4t.core.request.RequestContext;
 import org.dd4t.providers.PayloadCacheProvider;
 
-import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 

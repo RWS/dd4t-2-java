@@ -3,7 +3,6 @@ package org.dd4t.mvc.utils;
 import org.joda.time.DateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Required;
 
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeConstants;
@@ -198,12 +197,10 @@ public class XPMRenderer {
         return "";
     }
 
-    @Required
     public void setEnabled(boolean enabled) {
         this.enabled = enabled;
     }
 
-    @Required
     public void setCmsUrl(String cmsURL) {
         this.cmsURL = cmsURL;
     }

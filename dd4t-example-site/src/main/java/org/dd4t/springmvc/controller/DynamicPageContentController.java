@@ -15,6 +15,9 @@
  */
 package org.dd4t.springmvc.controller;
 
+import jakarta.annotation.Resource;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import org.dd4t.contentmodel.ComponentPresentation;
 import org.dd4t.contentmodel.Page;
 import org.dd4t.springmvc.siteedit.SiteEditService;
@@ -25,11 +28,6 @@ import org.dd4t.springmvc.view.model.ViewRegion;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.servlet.ModelAndView;
-
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
 
 public class DynamicPageContentController extends BaseDD4TController implements ContentController {
     private static Logger logger = LoggerFactory.getLogger(DynamicPageContentController.class);
@@ -111,9 +109,7 @@ public class DynamicPageContentController extends BaseDD4TController implements 
 
 
     @Override
-    protected ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) throws
-            Exception {
-
+    protected ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) {
         return null;
     }
 }

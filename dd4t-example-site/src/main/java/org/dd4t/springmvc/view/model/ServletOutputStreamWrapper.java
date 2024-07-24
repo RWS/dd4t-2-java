@@ -15,10 +15,11 @@
  */
 package org.dd4t.springmvc.view.model;
 
+import jakarta.servlet.ServletOutputStream;
+import jakarta.servlet.WriteListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.servlet.ServletOutputStream;
 import java.io.ByteArrayOutputStream;
 import java.nio.charset.Charset;
 
@@ -38,6 +39,16 @@ public class ServletOutputStreamWrapper extends ServletOutputStream {
     public ServletOutputStreamWrapper() {
         fBuffer = new ByteArrayOutputStream();
         writtenTo = false;
+    }
+
+    @Override
+    public boolean isReady() {
+        return false;
+    }
+
+    @Override
+    public void setWriteListener(WriteListener writeListener) {
+
     }
 
     /**

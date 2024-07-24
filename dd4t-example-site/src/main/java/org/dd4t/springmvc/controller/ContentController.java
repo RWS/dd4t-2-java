@@ -18,8 +18,8 @@ package org.dd4t.springmvc.controller;
 import org.dd4t.contentmodel.Page;
 import org.dd4t.springmvc.view.model.ComponentViews;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 
 public interface ContentController {

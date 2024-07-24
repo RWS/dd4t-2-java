@@ -20,7 +20,7 @@ import org.dd4t.contentmodel.Component;
 import org.dd4t.contentmodel.Schema;
 import org.dd4t.core.request.RequestContext;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 import java.text.ParseException;
 
 public class TridionUtils {

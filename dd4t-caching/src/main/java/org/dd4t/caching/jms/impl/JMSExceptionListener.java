@@ -16,12 +16,12 @@
 
 package org.dd4t.caching.jms.impl;
 
+import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.annotation.Resource;
-import javax.jms.ExceptionListener;
-import javax.jms.JMSException;
+import jakarta.jms.ExceptionListener;
+import jakarta.jms.JMSException;
 
 /**
  * @author Mihai Cadariu

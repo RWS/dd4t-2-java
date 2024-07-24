@@ -20,6 +20,11 @@ package org.dd4t.core.util;
  * dd4t-2
  */
 
+import jakarta.servlet.DispatcherType;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletRequest;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.http.NameValuePair;
@@ -29,11 +34,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-import javax.servlet.DispatcherType;
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletContext;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
 import java.net.InetAddress;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -119,7 +119,7 @@ public final class HttpUtils {
 
     /**
      * Returns the most likely IP-address of the client, no guarantee though.
-     * 
+     * <p>
      * If the client is behind a proxy it should be the 1st ip address in the
      * HTTP_X_FORWARDED_FOR header if not we use the REMOTE_ADDR header
      */
@@ -141,7 +141,7 @@ public final class HttpUtils {
 
     /**
      * Checking for local ip addresses, e.g.
-     * 
+     *
      * <pre>
      *     10.x.x.x
      *     172.[16-31].x.x
